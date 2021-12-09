@@ -1,0 +1,282 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin{center}
+    {\Huge \scshape Akansh Maurya} \\ 
+    \vspace{1pt}
+    C-54, NTPC Dibiyapur, Auraiya, Uttar Pradesh, India- 206244 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8433151551 ~ \href{mailto:akanshmaurya@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{akanshmaurya@gmail.com}} ~
+    \href{https://akansh12.github.io/}{\raisebox{-0.2\height}\faGlobe\ \underline{Website}} ~
+    \href{https://linkedin.com/in/akansh-maurya/}{\raisebox{-0.2\height}\faLinkedin\ \underline{akansh-maurya}}  ~
+    \href{https://github.com/akansh12}{\raisebox{-0.2\height}\faGithub\ \underline{akansh12}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Institute of Engineering and Technology}{Sep. 2017 -- July 2021}
+      {Bachelor of Technology in Electrical Engineering \textbf{\textit{CGPA: 8.7/10}}}{Lucknow, India} 
+      
+      \textit{Final year thesis: \href{https://github.com/akansh12/help_robots_help_humanity/blob/main/Final_Thesis.pdf}{\underline{\textbf{\textit{Surface type detection for the Robot's indoor navigation using Machine Learning.}}}}}
+  \resumeSubHeadingListEnd
+\vspace{-20pt}
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{5}
+            \begin{itemize}[itemsep=-2pt, parsep=3pt]
+                \item\small Signals \& Systems
+                \item Control Systems
+                \item Engineering Mathematics (I,II,III)
+                \item Machine Learning
+                \item Programming in C \& MATLAB
+                \item Power System Optimization
+                \item Analog \& Digital 
+                \item Engineering Physics (I, II)
+            \end{itemize}
+        \end{multicols}
+        \vspace*{1.0\multicolsep}
+    %\resumeSubHeadingListEnd
+\vspace{-16pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Robert Bosch Center for Data Science and Artificial Intelligence (RBCDSAI)}{Sept 2021 -- Present}
+      {Post Baccalaureate Research Assistant (\href{https://rbcdsai.iitm.ac.in/}{RBCDSAI, IIT Madras})}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Currently working under the guidance of \href{https://scholar.google.com/citations?hl=en&user=TXjlCH4AAAAJ&view_op=list_works&sortby=pubdate}{\textbf{Dr. Ganapathy Krishnamurthi}}}to make interpretable Deep Learning(DL) \textbf{Medical Imaging system}. We aim for making interpretable weakly-supervised DL algorithms to detect and localize multiple abnormalities in Chest X-rays.
+        \vspace{-4pt}
+        \resumeItem{Secured 3rd position in \href{https://cxr-covid19.grand-challenge.org/evaluation/challenge/leaderboard/}{Chest XR COVID-19 detection Grand Challenge among 200 teams.}}
+        \resumeItem{Participated in MICCAI's Federated Learning for Brain tumor segmentation (FeTS 2021); publication accepted in MICCAI BrainLes 2021.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Indian Institute of Science (IISc)}{October 2020 -- May 2021}
+      {Research Intern (\href{https://spire.ee.iisc.ac.in/spire/}{Signal Processing Interpretation and REpresentation (SPIRE) Laboratory})}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Worked under the guidance of \href{https://scholar.google.com/citations?hl=en&user=B_yn0m0AAAAJ&view_op=list_works&sortby=pubdate}{\textbf{Dr. Prashanta Kumar Ghosh}} to build an app that can help detect an asthmatic patient based on cough sound and sustained phonation. I pre-processed 285 patient recordings for feature engineering and calculated statistical features on MFCCs and their derivatives to train classifiers like Support Vector Machine, XGB.}
+        \resumeItem{My research finding includes: Wheeze sound best classify Asthmatic patients with 86{\%} Accuracy; Gender classification from breath signal with AUC score of {88.59\%}; proof of decrease in the quality of sound in Asthamatic Patients.}
+        \resumeItem{Identified that 25\% to 75\% chunk of whole breath signal is priamarly responsible for detecting Asthmatic patients.} \href{https://drive.google.com/file/d/145GzbQLKjciKnyj_294eR8cXqvbR8Im-/view}{Certificate} | \href{https://docs.google.com/presentation/d/1SF1BP9Gsv4Uj0TYhiD9lGixmDfyzKCJ1xWJIk1O79SM/edit?usp=sharing}{Presentation} 
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Indian Institute of Technology(IIT), Bombay}{May 2020 -- July 2020}
+      {Research Intern (\href{https://portal.e-yantra.org/}{Embedded Real Time System(ERTS) Labs})}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Under the supervision of \href{https://scholar.google.co.in/citations?user=Qz7H0U0AAAAJ&hl=en}{\textbf{Prof. Kavi Arya}}, I developed a Deep Learning-based web app that automates verifying and validating of ID card images; It reduced the processing time from 14 days to 3 hours. Implemented a ResNet-50 architecture for classification, verifying college ID cards, received 98.8\% accuracy.}
+        \resumeItem{Developed a RotateNet model with 91\% accuracy that corrected orientated images, improved OCR results on rotated images, implemented text detection and recognition with DBNet and CRNN, and got 27 fps speed to process images.}
+        \resumeItem{I coded a custom fuzzy string matching algorithm to validate text present in the ID card. F1 score of the whole system is 0.90054.}\href{https://drive.google.com/file/d/1cB3ifg3zKtkgFuMHambSD1DytbJgoJx5/view}{Certificate} | \href{https://github.com/akansh12/Verify_ID_using_deep_learning/blob/main/README.md}{Report} | \href{https://www.youtube.com/watch?v=7uvN3RBUNYg}{Video}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-20pt}
+\section{Publication}
+    \resumeItemListStart
+        \resumeItem{Shambhat V, \textbf{Maurya A.}, Krishnamurthi G. et al. (2021). "A study on Criteria for Training Collaborator Selection in Federated Learning." (Accepted in MICCAI BrainLes 2021)}
+        \vspace{-8pt}
+        \resumeItem{\textbf{Maurya A.}, Krishnamurthi G. (2021). "Weighted average ensemble method for classification of COVID-19 and Pneumonia from Chest X-rays." (Under review in ISBI 2022)}
+        \vspace{-8pt}
+        \resumeItem{\textbf{Maurya A.}, Manjrekar O., Arya  K., et al. (2020). \href{https://drive.google.com/file/d/1LK6slSyTwjNDlM44pc3Dp07oiPOE6O-k/view}{“A system for verifying non-standard personal identity documents using deep learning models.”} International Journal on Document Analysis and Recognition. (Submitted ICDAR-IJDAR, 2021 journal track).}
+        
+    \resumeItemListEnd
+ \vspace{-16pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, Python, MATLAB. } \\
+     \textbf{Python Libraries}{: Pytorch, TensorFlow, OpenCV, Robot Operating System(ROS), Numpy, Matplotlib, Pandas, Librosa} \\
+     \textbf{Technologies/Frameworks}{: Linux, GitHub, Computer vision, Deep Learning, Audio Processing, Time-series Analysis} \\
+    }}
+ \end{itemize}
+ \vspace{-18pt}
+ 
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeItemListStart
+        \resumeItem{Served as \href{https://drive.google.com/file/d/1bca9fBEtqEAgSiWnDeu67OUKe85gFp1m/view?usp=sharingg}{Joint Secretary} at Electrical Engineering Society\href{https://eesietlko.blogspot.com/}{(EES)}, IET Lucknow, organized  5 research talks and 2 technical workshop for students.}
+        \vspace{-8pt}
+        \resumeItem{Served as an Volunteer and Academic Assistant of \href{http://www.ietparmarth.in/}{Parmarth}- the social club of IET Lucknow; I taught children of slums nearby college, conducted cloth and food distribution to the needy.}
+        \vspace{-8pt}
+        \resumeItem{Like to play Chess(ELO 890), badminton and \href{https://drive.google.com/file/d/1bNI9BsA8nNTKdviLdMjpC7MgvoRY1Hms/view?usp=sharing}{Kho-kho}; I also participated in many inter-college events.}
+    \resumeItemListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+          \resumeProjectHeading
+          {\href{https://akansh12.github.io/blogs/Survey_and_Rescue.html}{\textbf{Survey \& Rescue Drone}} $|$ \emph{Control Systems, ROS, Python, OpenCV}}{February 2020}
+          \resumeItemListStart
+            \resumeItem{Designed a prototype to mimic the flood affected region and programmed a drone that can autonomously navigate in the flood-affected region to distribute supplies.}
+            \resumeItem{Used Robot Operating System(ROS) for programming custom path planning algorithm with Drone, used PID controller to control drone movement.}
+            \resumeItem{Implemented Image processing Algorithm using OpenCV to detect regions of flood and points of distress.}
+            \resumeItem{My team secured \href{https://drive.google.com/file/d/1-iszpL4bOU3m97PPyYSPTy0ehgvjdDqP/view?usp=sharing}{5th position among 1050 teams} internationally.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Lung Segmentation from Chest X-Rays} $|$ \emph{Deep Learning, Python, Pytorch, PyDicom}}{October 2021}
+          \resumeItemListStart
+            \resumeItem{Used Montgomery County X-Ray dataset, which contains only 138 posterior-anterior x-rays. Performed rigorous augmentation techniques to increase the number of data points and generalization.}
+            \resumeItem{Created U-Net, with Resnet 50 as a backbone; Achieved the dice score of 97.67\% on test set.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://akansh12.github.io/blogs/grand_challenge.html}{\textbf{Fovea Localization for AMD \& Non-AMD patients} }$|$ \emph{Python, Pytorch, OpenCV}}{April 2021}
+          \resumeItemListStart
+            \resumeItem{This project is part of ADAM competition.  Accomplished localization of Fovea, inside the human eye.}
+            \resumeItem{Attained decent accuracy of 60\% on small dataset of 400 images by different custom data augmentation techniques.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://akansh12.github.io/blogs/automated_measurement_of\%20fetal_head_circumference.html}{\textbf{Automated measurement of fetal head circumference}} $|$ \emph{Python, Pytorch, Pandas, Numpy}}{March 2021}
+          \resumeItemListStart
+            \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
+            \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
+            \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
+            \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://akansh12.github.io/blogs/Coding_the_Genetic_Algorithm_using_MATLAB.html}{\textbf{Genetic Algorithm from scratch using MATLAB}} $|$ \emph{Optimization, MATLAB}}{December 2019}
+          \resumeItemListStart
+            \resumeItem{This project was guided by Dr. Nitin Anand Shrivastava. }
+            \resumeItem{Coded Genetic Algorithm functions like selection, crossover, mutation and elitism using MATLAB to solve simple load dispatch problem.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+ 
+    \resumeSubHeadingListEnd
+\vspace{-10pt}
+\section{Referral}
+    \resumeItemListStart
+        \resumeItem{\href{https://scholar.google.com/citations?view_op=view_org&hl=en&org=6479859954410285989}{Dr. Ganapathy Krishnamurthi}, Associate Professor at \href{https://www.iitm.ac.in/}{IIT-Madras}}
+        \vspace{-8pt}
+        \resumeItem{\href{https://scholar.google.co.in/citations?hl=en&user=vol8O0QAAAAJ&view_op=list_works&sortby=pubdate}{Dr. Nitin Anand Shrivastava}, Assistant Professor at \href{https://www.ietlucknow.ac.in/}{IET Lucknow}}
+        \vspace{-8pt}
+        
+    \resumeItemListEnd
+ \vspace{-16pt}
+
+
+
+
+
+\end{document}
